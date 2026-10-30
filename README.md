@@ -40,7 +40,7 @@ Se trabajan los siguientes componentes:
 
 **Evidencias:**
 
-![Base de datos y tabla de productos](docs/capturas/etapa1-base-datos.png)
+![Base de datos y tabla de productos](Evidencias/base-datos.png)
 
 *Figura 1. Configuración de la base de datos y almacenamiento de productos.*
 
@@ -57,11 +57,11 @@ Se consideran los siguientes componentes:
 
 **Evidencias:**
 
-![Vista principal de LocalShop](docs/capturas/etapa2-vista-principal.png)
+![Vista principal de LocalShop](Evidencias/vista-principal.png)
 
 *Figura 2. Interfaz principal y catálogo de productos.*
 
-![Geolocalización](docs/capturas/etapa2-geolocalizacion.png)
+![Geolocalización](Evidencias/geolocalizacion.png)
 
 *Figura 3. Funcionamiento de la API de geolocalización.*
 
@@ -80,11 +80,11 @@ Se trabajan los siguientes aspectos:
 
 **Evidencias:**
 
-![Service Worker registrado](docs/capturas/etapa3-service-worker.png)
+![Service Worker registrado](Evidencias/service-worker.png)
 
 *Figura 4. Registro del Service Worker en el navegador.*
 
-![Aplicación sin conexión](docs/capturas/etapa3-modo-offline.png)
+![Aplicación sin conexión](Evidencias/modo-offline.png)
 
 *Figura 5. Comportamiento de la aplicación sin conexión a Internet.*
 
@@ -103,8 +103,8 @@ Practica-4-pwa/
 │   ├── pom.xml
 │   └── ...
 │
-├── docs/
-│   └── capturas/
+├── Evidencias/
+│   └── (capturas de evidencias)
 │
 └── README.md
 ```
