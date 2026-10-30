@@ -168,7 +168,23 @@ Desde la carpeta `localshop`, ejecutar:
 mvn spring-boot:run
 ```
 
-**5. Acceder a la aplicación**
+**5. Cargar datos de prueba**
+
+Al ejecutar la aplicación por primera vez, Hibernate crea automáticamente la tabla `productos`. Con la aplicación en ejecución, conectarse a la base de datos `localshop` (desde pgAdmin → Query Tool o desde `psql`) y ejecutar:
+
+```sql
+INSERT INTO productos (nombre, descripcion, precio, imagen_url) VALUES
+('Laptop', 'Portátil de 15 pulgadas, 16 GB RAM', 15999.00, NULL),
+('Mouse inalámbrico', 'Mouse ergonómico Bluetooth', 349.50, NULL),
+('Teclado mecánico', 'Switches rojos y retroiluminación', 1299.00, NULL),
+('Monitor 24 pulgadas', 'Full HD IPS', 3499.00, NULL),
+('Audífonos', 'Con cancelación de ruido', 1899.90, NULL),
+('Webcam HD', '1080p con micrófono integrado', 799.00, NULL);
+```
+
+Recargar la página para ver los productos en el catálogo.
+
+**6. Acceder a la aplicación**
 
 Abrir el navegador y entrar a:
 
